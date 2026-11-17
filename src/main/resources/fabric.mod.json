@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvplearner",
+  "version": "${version}",
+  "name": "PvP Learner",
+  "description": "A client-side combat AI for single-player worlds that fights nearby hostile mobs and other players and evolves its fighting style from the results.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.pvplearner.PvpLearnerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
